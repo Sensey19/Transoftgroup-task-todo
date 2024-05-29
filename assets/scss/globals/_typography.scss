@@ -1,0 +1,309 @@
+h1 {
+  font-size: 150px;
+  line-height: 135px;
+}
+
+h2 {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+h3 {
+  font-size: 70px;
+  line-height: 70px;
+}
+
+h4 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h5 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h6 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.p-1 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.p-2 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.p-3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.p-4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p-5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p-6 {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 16.8px;
+}
+
+@include des {
+  h1 {
+    font-size: 130px;
+    line-height: 117px;
+  }
+
+  h2 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  h3 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h5 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  h6 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .p-1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .p-2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .p-3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .p-4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .p-5 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .p-6 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
+
+@include tab {
+  h1 {
+    font-size: 120px;
+    line-height: 108px;
+  }
+
+  h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  h3 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  h5 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  h6 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .p-1 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .p-2 {
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .p-3 {
+    font-size: 18px;
+    line-height: 23.4px;
+  }
+
+  .p-4 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .p-5 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+
+  .p-6 {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+}
+
+@include mob-tab {
+  h1 {
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  h4 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  h5 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  h6 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .p-1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .p-2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .p-3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .p-4 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .p-5 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .p-6 {
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+}
+
+@include mob {
+  h1 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  h4 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .p-1 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .p-2 {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .p-3 {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+
+  .p-4 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .p-5 {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+
+  .p-6 {
+    font-size: 12px;
+    line-height: 14.4px;
+  }
+}

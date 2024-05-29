@@ -1,0 +1,14 @@
+.pagination {
+  &__numbers {
+    padding: 20px;
+  }
+}
+
+.bth-number {
+  border-radius: 4px;
+  background-color: $white;
+
+  &.active {
+    background-color: $green-100;
+  }
+}

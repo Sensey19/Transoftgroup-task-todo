@@ -1,0 +1,27 @@
+%flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+%flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+%flex-fully-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+%absolute-tl-null {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
