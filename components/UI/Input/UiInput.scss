@@ -1,0 +1,29 @@
+.form-input {
+  &__label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: $gray-900;
+  }
+
+  &__field {
+    display: block;
+    margin-top: 5px;
+    padding: 6px 12px;
+    width: 100%;
+    border: 1px solid $gray-300;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    box-sizing: border-box;
+
+    &::placeholder {
+      font-family: $f-regular;
+      color: $gray-500;
+    }
+
+    &:focus {
+      border-color: $blue-600;
+      box-shadow: 0 0 0 1px $blue-600;
+    }
+  }
+}

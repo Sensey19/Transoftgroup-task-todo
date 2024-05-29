@@ -57,7 +57,13 @@ const filteredUsers = computed((): IUser[] | [] => {
 
 <template>
   <!-- Search input -->
-  <input v-model="searchQuery" class="search-input" type="text" placeholder="Search user" />
+  <ui-input
+    id="search"
+    v-model="searchQuery"
+    placeholder="Search user"
+    label="Search user by typing"
+    autocomplete="name"
+  />
   <template v-if="users.length">
     <!--Table of users-->
     <ui-table :thead="theadUsers">
@@ -84,7 +90,7 @@ const filteredUsers = computed((): IUser[] | [] => {
 </template>
 
 <style scoped lang="scss">
-.search-input {
+.form-input {
   margin-bottom: 20px;
 }
 

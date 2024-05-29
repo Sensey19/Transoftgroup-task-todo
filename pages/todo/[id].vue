@@ -45,24 +45,11 @@ if (userId.value) {
 <template>
   <h3 v-if="user" class="title">{{ user.name }}</h3>
   <todo-user v-if="todos.length" :todos="todos" />
-  <nuxt-link class="bth-back" to="/">Back to users</nuxt-link>
+  <nuxt-link class="bth-link" to="/">Back to users</nuxt-link>
 </template>
 
 <style scoped lang="scss">
 .title {
   margin-bottom: 30px;
-}
-
-.bth-back {
-  display: inline-block;
-  margin: 20px 0 30px;
-  padding: 5px 8px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  border: 1px solid $blue-100;
-  border-radius: 12px;
-  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
-  box-sizing: border-box;
 }
 </style>
