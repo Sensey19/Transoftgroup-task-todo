@@ -2,14 +2,14 @@
 
 <template>
   <div class="wrap">
-    <main class="main-container">
+    <main class="main">
       <slot />
     </main>
   </div>
 </template>
 
 <style scoped lang="scss">
-.main-container {
+.main {
   margin-top: 100px;
 }
 </style>

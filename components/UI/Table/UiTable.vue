@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ITheadTable } from '~/components/ListUsers/types/listUsersTypes';
+import type { ITheadTable } from '~/@types/generalTypes';
 
 defineProps({
   thead: {
